@@ -14,8 +14,5 @@ def gemini_set_up():
             api_key = os.getenv("GEMINI_API_KEY")
         )
     }
-
     return config
 
-if __name__ == "__main__":
-    gemini_set_up()
