@@ -17,3 +17,4 @@ def Interface_config():
             share = os.getenv("SHARE")
         )
     }
+    return config
