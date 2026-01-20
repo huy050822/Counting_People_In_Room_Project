@@ -15,4 +15,3 @@ def gemini_set_up():
         )
     }
     return config
-
