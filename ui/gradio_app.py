@@ -12,18 +12,13 @@ def chat_users(message, history):
 
     bot_reply = gemini_chat.chat(message, history)
 
-    history.append({
-        "role": "user",
-        "content": message
-    })
-    history.append({
-        "role": "assistant",
-        "content": bot_reply
-    })
+    if bot_reply is None:
+        bot_reply = "Gemini did not return a response."
+
+    history.append({"role": "user", "content": message})
+    history.append({"role": "assistant", "content": bot_reply})
 
     return history, ""
-
-
 
 def clear():
     return [], "" 
