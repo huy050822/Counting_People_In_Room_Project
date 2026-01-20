@@ -5,30 +5,21 @@ class Gemini_chatbot:
         self.client = genai.Client()
         self.model_name = model_name
 
-    def chat(self, user_message, history):
-        contents = []
+    def chat(self, user_message, gradio_history):
+        # Gộp history thành text thuần
+        prompt = ""
 
-        for msg in history:
+        for msg in gradio_history:
             if msg["role"] == "user":
-                contents.append({
-                    "role": "user",
-                    "parts": [{"text": msg["content"]}]
-                })
+                prompt += f"User: {msg['content']}\n"
             elif msg["role"] == "assistant":
-                contents.append({
-                    "role": "model",
-                    "parts": [{"text": msg["content"]}]
-                })
+                prompt += f"Assistant: {msg['content']}\n"
 
-        contents.append({
-            "role": "user",
-            "parts": [{"text": user_message}]
-        })
+        prompt += f"User: {user_message}\nAssistant:"
 
         res = self.client.models.generate_content(
             model=self.model_name,
-            contents=contents
+            contents=prompt
         )
 
         return res.text
-
