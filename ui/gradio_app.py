@@ -1,19 +1,28 @@
 import gradio as gr
 from config.gradio_config import Interface_config
 #Gemini
-from config.api_key_chatbot import gemini_set_up
 from services.gemini_services import Gemini_chatbot
 #
 
 
-config = gemini_set_up()
-gemini_chat = Gemini_chatbot(config["gemini"].api_key)
+gemini_chat = Gemini_chatbot()
+def chat_users(message, history):
+    if history is None:
+        history = []
 
-
-def chat_users(message,history):
     bot_reply = gemini_chat.chat(message, history)
-    history.append([message, bot_reply])
+
+    history.append({
+        "role": "user",
+        "content": message
+    })
+    history.append({
+        "role": "assistant",
+        "content": bot_reply
+    })
+
     return history, ""
+
 
 
 def clear():
