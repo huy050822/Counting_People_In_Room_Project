@@ -300,6 +300,7 @@ class Trainer:
         print(f"MSE: {mse:.2f}")
         print(f"R2: {r2:.3f}")
 
+# ===== MAIN =====
 if __name__ == "__main__":
 
     TRAIN_DIR = Data_Path.TRAIN_DIR

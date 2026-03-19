@@ -8,7 +8,6 @@ class Data_Path:
     TEST_DIR  = r"E:\Count People\data\img\test"
 
     CSV_PATH  = r"E:\Count People\data\points_all.csv"
-
-    GT_TRAIN_DIR = "/models/gt/Train"
-    GT_VAL_DIR   = "/models/gt/Val"
-    GT_TEST_DIR  = "/models/gt/Test"
+    GT_TEST_DIR = r"E:\Count People\data\gt\Test"    
+    GT_VAL_DIR   = r"E:\Count People\data\gt\Val"
+    GT_TRAIN_DIR  = r"E:\Count People\data\gt\Train"

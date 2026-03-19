@@ -92,3 +92,23 @@
 2026-03-18 22:39:18,057 INFO gradio_app.py: Predicted count: 4.43
 2026-03-18 22:39:18,288 INFO gradio_app.py: Start counting people
 2026-03-18 22:39:18,315 INFO gradio_app.py: Predicted count: 4.43
+2026-03-19 11:49:10,526 INFO gradio_app.py: Crowd model loaded
+2026-03-19 11:49:10,527 INFO gradio_app.py: Interface initialized
+2026-03-19 11:52:09,324 INFO gradio_app.py: Start counting people
+2026-03-19 11:52:09,360 INFO gradio_app.py: Predicted count: 0.87
+2026-03-19 11:52:18,360 INFO gradio_app.py: Start counting people
+2026-03-19 11:52:18,393 INFO gradio_app.py: Predicted count: 3.05
+2026-03-19 13:50:31,750 INFO gradio_app.py: Crowd model loaded
+2026-03-19 13:50:31,750 INFO gradio_app.py: Interface initialized
+2026-03-19 13:53:16,637 INFO gradio_app.py: Start counting people
+2026-03-19 13:53:16,668 INFO gradio_app.py: Predicted count: 1.30
+2026-03-19 13:53:48,400 INFO gradio_app.py: Starting using Gemini to reply user
+2026-03-19 13:56:15,079 INFO gradio_app.py: Crowd model loaded
+2026-03-19 13:56:15,080 INFO gradio_app.py: Interface initialized
+2026-03-19 13:56:34,625 INFO gradio_app.py: Starting using Gemini to reply user
+2026-03-19 13:56:48,238 INFO gradio_app.py: Start counting people
+2026-03-19 13:56:48,276 INFO gradio_app.py: Predicted count: 2.03
+2026-03-19 15:06:34,223 INFO gradio_app.py: Starting using Gemini to reply user
+2026-03-19 15:07:05,214 INFO gradio_app.py: Starting using Gemini to reply user
+2026-03-19 15:07:26,435 INFO gradio_app.py: Start counting people
+2026-03-19 15:07:26,462 INFO gradio_app.py: Predicted count: 2.03

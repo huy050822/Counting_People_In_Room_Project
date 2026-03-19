@@ -1,4 +1,3 @@
 __pycache__
 .env
-*.pth
-*.pth
+trained_model.pth
