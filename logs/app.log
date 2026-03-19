@@ -1,0 +1,94 @@
+2026-01-22 00:59:19,704 INFO gradio_app.py: Interface initialized
+2026-01-22 00:59:32,830 INFO gradio_app.py: Starting using Gemini to reply user
+2026-01-22 00:59:34,614 INFO gradio_app.py: Gemini append user's history completely
+2026-01-22 00:59:34,614 INFO gradio_app.py: Gemini append assistant's history completely
+2026-01-22 01:00:11,693 INFO gradio_app.py: Starting using Gemini to reply user
+2026-01-22 01:00:16,910 INFO gradio_app.py: Gemini append user's history completely
+2026-01-22 01:00:16,911 INFO gradio_app.py: Gemini append assistant's history completely
+2026-01-22 01:01:29,149 INFO gradio_app.py: Starting using Gemini to reply user
+2026-01-22 01:01:34,524 INFO gradio_app.py: Gemini append user's history completely
+2026-01-22 01:01:34,524 INFO gradio_app.py: Gemini append assistant's history completely
+2026-01-22 01:02:35,716 INFO gradio_app.py: Starting using Gemini to reply user
+2026-01-22 01:02:39,403 INFO gradio_app.py: Gemini append user's history completely
+2026-01-22 01:02:39,403 INFO gradio_app.py: Gemini append assistant's history completely
+2026-01-22 01:03:16,496 INFO gradio_app.py: Starting using Gemini to reply user
+2026-01-22 01:03:26,560 INFO gradio_app.py: Gemini append user's history completely
+2026-01-22 01:03:26,560 INFO gradio_app.py: Gemini append assistant's history completely
+2026-01-22 01:03:55,325 INFO gradio_app.py: Starting using Gemini to reply user
+2026-01-22 01:04:03,658 INFO gradio_app.py: Gemini append user's history completely
+2026-01-22 01:04:03,659 INFO gradio_app.py: Gemini append assistant's history completely
+2026-01-22 01:04:20,651 INFO gradio_app.py: Starting using Gemini to reply user
+2026-01-22 01:04:33,457 INFO gradio_app.py: Gemini did not return a response
+2026-01-22 01:04:33,458 INFO gradio_app.py: Gemini append user's history completely
+2026-01-22 01:04:33,458 INFO gradio_app.py: Gemini append assistant's history completely
+2026-01-22 01:04:59,985 INFO gradio_app.py: Starting using Gemini to reply user
+2026-01-22 01:05:04,443 INFO gradio_app.py: Gemini append user's history completely
+2026-01-22 01:05:04,443 INFO gradio_app.py: Gemini append assistant's history completely
+2026-01-22 01:05:19,375 INFO gradio_app.py: Clear history completely
+2026-03-18 22:06:02,902 INFO gradio_app.py: Crowd model loaded
+2026-03-18 22:06:02,902 INFO gradio_app.py: Interface initialized
+2026-03-18 22:07:38,335 INFO gradio_app.py: Starting using Gemini to reply user
+2026-03-18 22:08:03,236 INFO gradio_app.py: Starting using Gemini to reply user
+2026-03-18 22:08:24,028 INFO gradio_app.py: Start counting people
+2026-03-18 22:08:24,104 INFO gradio_app.py: Predicted count: 4.50
+2026-03-18 22:08:31,203 INFO gradio_app.py: Start counting people
+2026-03-18 22:08:31,221 INFO gradio_app.py: Predicted count: 4.50
+2026-03-18 22:08:32,049 INFO gradio_app.py: Start counting people
+2026-03-18 22:08:32,069 INFO gradio_app.py: Predicted count: 4.50
+2026-03-18 22:11:38,414 INFO gradio_app.py: Crowd model loaded
+2026-03-18 22:11:38,415 INFO gradio_app.py: Interface initialized
+2026-03-18 22:12:48,355 INFO gradio_app.py: Start counting people
+2026-03-18 22:12:48,388 INFO gradio_app.py: Predicted count: 4.90
+2026-03-18 22:13:09,778 INFO gradio_app.py: Start counting people
+2026-03-18 22:13:09,805 INFO gradio_app.py: Predicted count: 7.66
+2026-03-18 22:13:13,734 INFO gradio_app.py: Start counting people
+2026-03-18 22:13:13,763 INFO gradio_app.py: Predicted count: 7.66
+2026-03-18 22:14:55,422 INFO gradio_app.py: Starting using Gemini to reply user
+2026-03-18 22:15:34,017 INFO gradio_app.py: Start counting people
+2026-03-18 22:15:34,055 INFO gradio_app.py: Predicted count: 15.03
+2026-03-18 22:16:03,577 INFO gradio_app.py: Start counting people
+2026-03-18 22:16:03,612 INFO gradio_app.py: Predicted count: 7.63
+2026-03-18 22:16:27,983 INFO gradio_app.py: Start counting people
+2026-03-18 22:16:28,027 INFO gradio_app.py: Predicted count: 1.06
+2026-03-18 22:16:42,467 INFO gradio_app.py: Start counting people
+2026-03-18 22:16:42,491 INFO gradio_app.py: Predicted count: 3.88
+2026-03-18 22:17:13,832 INFO gradio_app.py: Start counting people
+2026-03-18 22:17:13,869 INFO gradio_app.py: Predicted count: 0.00
+2026-03-18 22:17:30,002 INFO gradio_app.py: Start counting people
+2026-03-18 22:17:30,038 INFO gradio_app.py: Predicted count: 8.77
+2026-03-18 22:17:48,132 INFO gradio_app.py: Start counting people
+2026-03-18 22:17:48,168 INFO gradio_app.py: Predicted count: 16.28
+2026-03-18 22:18:31,738 INFO gradio_app.py: Start counting people
+2026-03-18 22:18:31,762 INFO gradio_app.py: Predicted count: 4.90
+2026-03-18 22:18:51,915 INFO gradio_app.py: Start counting people
+2026-03-18 22:18:51,958 INFO gradio_app.py: Predicted count: 4.22
+2026-03-18 22:29:42,426 INFO gradio_app.py: Crowd model loaded
+2026-03-18 22:29:42,427 INFO gradio_app.py: Interface initialized
+2026-03-18 22:31:35,913 INFO gradio_app.py: Start counting people
+2026-03-18 22:31:35,946 INFO gradio_app.py: Predicted count: 8.71
+2026-03-18 22:32:28,550 INFO gradio_app.py: Start counting people
+2026-03-18 22:32:28,576 INFO gradio_app.py: Predicted count: 8.19
+2026-03-18 22:34:19,304 INFO gradio_app.py: Start counting people
+2026-03-18 22:34:19,339 INFO gradio_app.py: Predicted count: 4.35
+2026-03-18 22:35:10,364 INFO gradio_app.py: Start counting people
+2026-03-18 22:35:10,387 INFO gradio_app.py: Predicted count: 13.77
+2026-03-18 22:36:18,686 INFO gradio_app.py: Start counting people
+2026-03-18 22:36:18,714 INFO gradio_app.py: Predicted count: 13.33
+2026-03-18 22:36:54,171 INFO gradio_app.py: Start counting people
+2026-03-18 22:36:54,196 INFO gradio_app.py: Predicted count: 9.86
+2026-03-18 22:38:26,873 INFO gradio_app.py: Start counting people
+2026-03-18 22:38:26,904 INFO gradio_app.py: Predicted count: 2.74
+2026-03-18 22:38:35,243 INFO gradio_app.py: Start counting people
+2026-03-18 22:38:35,269 INFO gradio_app.py: Predicted count: 10.67
+2026-03-18 22:38:48,834 INFO gradio_app.py: Start counting people
+2026-03-18 22:38:48,855 INFO gradio_app.py: Predicted count: 8.24
+2026-03-18 22:39:02,055 INFO gradio_app.py: Start counting people
+2026-03-18 22:39:02,081 INFO gradio_app.py: Predicted count: 3.21
+2026-03-18 22:39:13,835 INFO gradio_app.py: Start counting people
+2026-03-18 22:39:13,871 INFO gradio_app.py: Predicted count: 4.43
+2026-03-18 22:39:17,833 INFO gradio_app.py: Start counting people
+2026-03-18 22:39:17,860 INFO gradio_app.py: Predicted count: 4.43
+2026-03-18 22:39:18,035 INFO gradio_app.py: Start counting people
+2026-03-18 22:39:18,057 INFO gradio_app.py: Predicted count: 4.43
+2026-03-18 22:39:18,288 INFO gradio_app.py: Start counting people
+2026-03-18 22:39:18,315 INFO gradio_app.py: Predicted count: 4.43

@@ -41,7 +41,7 @@ def handlers_config(file, handler_type= "rotating"):
 def logger_config(name, file_name, level=logging.INFO, handler_type= "rotating"):
     logger = logging.getLogger(name) # == file's name <app.py> => <app.logs>
     logger.setLevel(level) 
-    if not logger.handlers:
+    if logger.handlers:
         return logger #Avoid write over the old file
     
     handler = handlers_config(file_name, handler_type) #Call def handlers_config and use it such as default
