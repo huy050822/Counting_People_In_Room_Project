@@ -199,8 +199,7 @@ class Metrics:
 
 # ===== TRAINER =====
 class Trainer:
-    def __init__(self, train_dir, val_dir, test_dir,
-                 gt_train, gt_val, gt_test):
+    def __init__(self, train_dir, val_dir, test_dir, gt_train, gt_val, gt_test):
 
         self.device = DEVICE
         self.best_mae = float("inf")

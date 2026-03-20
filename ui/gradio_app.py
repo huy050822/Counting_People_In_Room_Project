@@ -62,7 +62,6 @@ def count_people(image):
 
     count = float(density.sum())
 
-    # visualize density
     density_vis = cv2.resize(density, (224, 224))
     density_vis = (density_vis - density_vis.min()) / (density_vis.max() + 1e-8)
 
